@@ -1,4 +1,4 @@
-FROM g++:latest
+FROM g++
 
 MAINTAINER jd_gong
 
