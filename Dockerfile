@@ -2,7 +2,7 @@ FROM gcc:latest
 
 MAINTAINER jd_gong
 
-COPY src/* /usr/src/myapp
+COPY src/* /usr/src/myapp/
 
 WORKDIR /usr/src/myapp
 
