@@ -6,6 +6,6 @@ COPY src/* /usr/src/myapp
 
 WORKDIR /usr/src/myapp
 
-RUN gcc -g -Wall -o main demo.cpp
+RUN gcc -g -Wall -o main demo.c
 
 CMD[./main]
