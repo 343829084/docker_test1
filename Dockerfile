@@ -8,4 +8,4 @@ WORKDIR /usr/src/myapp
 
 RUN gcc -g -Wall -o main demon.c
 
-CMD[./main]
+CMD[ ./main ]
