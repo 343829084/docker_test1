@@ -1,4 +1,5 @@
 FROM gcc:latest
+FROM index.docker.io/lballabio/boost:wily
 
 MAINTAINER jd_gong
 
