@@ -9,4 +9,5 @@ WORKDIR /usr/src/myapp
 #RUN gcc -g -Wall -o main demon.c
 RUN make all
 
-CMD ["./MAIN"]
+#CMD ["./MAIN"]
+CMD ["./hello"]
